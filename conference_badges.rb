@@ -13,7 +13,10 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-
+  attendees.each do |i|
+    attendees[attendees.index(i)]= "Hello, #{i}! You'll be assigned to room #{attendees.index(i)}!"
+  end
+  return attendees
 end
 
 def printer(attendees)
