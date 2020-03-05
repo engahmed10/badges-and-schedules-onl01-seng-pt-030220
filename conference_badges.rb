@@ -24,5 +24,4 @@ def printer(attendees)
      puts "Hello, my name is #{i}."
      puts "Hello, #{i}! You'll be assigned to room #{attendees.index(i)+1}!"
   end
-  puts attendees
 end
